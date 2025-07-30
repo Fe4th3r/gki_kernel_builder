@@ -193,6 +193,9 @@ jobs:
 
       - name: Build
         env:
+          ARCH: arm64
+          CROSS_COMPILE: aarch64-linux-gnu-
+          CLANG_TRIPLE: aarch64-linux-gnu-
           KSU:   ${{ inputs.KSU }}
           SUSFS: ${{ inputs.SUSFS }}
           LXC:   ${{ inputs.LXC }}
