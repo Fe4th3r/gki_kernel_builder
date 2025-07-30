@@ -79,7 +79,7 @@
         },
         "config": {
             "CONFIG_KSU": true,
-            "CONFIG_KPM": true,
+            "CONFIG_KPM": false,
             "CONFIG_KSU_MANUAL_HOOK": true,
             "CONFIG_KSU_KPROBES_HOOK": false,
             "CONFIG_KSU_SUSFS": true,
