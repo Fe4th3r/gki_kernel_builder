@@ -4,15 +4,15 @@ from typing import Final, Literal
 from kernel_builder.constants import ROOT
 
 # ---- Build Info
-KERNEL_NAME: Final[str] = "ESK"
+KERNEL_NAME: Final[str] = "ZTC"
 DEFCONFIG: Final[str] = "gki_defconfig"
 BUILD_USER: Final[str] = "gki-builder"
 BUILD_HOST: Final[str] = "esk"
 IMAGE_COMP: Final[Literal["raw", "lz4", "gz"]] = "gz"
 
 # ---- Kernel
-KERNEL_REPO: Final[str] = "github.com:bachnxuan/android12-5.10-lts"
-KERNEL_BRANCH: Final[str] = "esk/main"
+KERNEL_REPO: Final[str] = "github.com:Fe4th3r/android_gki_kernel_5.10_common"
+KERNEL_BRANCH: Final[str] = "android12-5.10-2025-06"
 
 # ---- AnyKernel3
 ANYKERNEL_REPO = "github.com:bachnxuan/AnyKernel3"
