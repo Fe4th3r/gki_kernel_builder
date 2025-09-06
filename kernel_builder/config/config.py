@@ -15,7 +15,7 @@ KERNEL_REPO: Final[str] = "github.com:Fe4th3r/android_gki_kernel_5.10_common"
 KERNEL_BRANCH: Final[str] = "android12-5.10-2025-06"
 
 # ---- AnyKernel3
-ANYKERNEL_REPO = "github.com:bachnxuan/AnyKernel3"
+ANYKERNEL_REPO = "github.com:ESK-Project/AnyKernel3"
 ANYKERNEL_BRANCH = "android12-5.10"
 
 # ---- Release
